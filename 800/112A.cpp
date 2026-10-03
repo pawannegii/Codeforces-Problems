@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // These two line makes code fast idk how lol
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
@@ -20,5 +21,5 @@ int main()
         s2new += (char)tolower(s2[i]);
     }
 
-        return 0;
+    return 0;
 }
