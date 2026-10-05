@@ -1,11 +1,11 @@
+// already solved this problem but now wrapped my logic in function
+
 #include <iostream>
 using namespace std;
 
-int main()
+int largebear(int x, int y)
 {
     int time = 0;
-    int x, y;
-    cin >> x >> y;
 
     if (x == y)
     {
@@ -27,7 +27,14 @@ int main()
         }
     }
 
-    cout << time;
+    return time;
+}
+int main()
+{
+    int x, y;
+    cin >> x >> y;
+
+    cout << largebear(x, y);
 
     return 0;
 }
