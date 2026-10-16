@@ -1,4 +1,4 @@
-// This version looks simple and compact but time complexity is higher than the qst version
+// This version looks simple and compact but time complexity is higher than the 1st version
 
 #include <iostream>
 using namespace std;
